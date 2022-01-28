@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- saved from url=(0225)https://webshell.suite.office.com/iframe/TokenFactoryIframe?origin=https%3A%2F%2Finc-powerpoint.officeapps.live.com&shsid=485f2277-f733-45b5-8ac0-a3ca49921719&apiver=oneshell&cshver=20210824.2&upn=tanya.19b101036%40abes.ac.in -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="https://shell.cdn.office.net/shellux/o365/versionless/suiteux.shell.tokenfactoryiframe.82e713fa4ad10e1f793f.js"></script>
+</head>
+<body>
+    <script type="text/javascript" nonce="">
+        
+                var requestExecutorSettings = {
+                    originAuthorityValidator: O365SuiteServiceProxy.ServiceHandlers.validateOrigin,
+                    trustedOriginAuthorities: ["\u005E.\u002A\\.officeapps\\.live\\.com\u0024"],
+                    allowedEndpoints: [{host: "^webshell\\.suite\\.office\\.com$",paths: ["^api/(.*?)"]},{host: "^ocws\\.officeapps\\.live\\.com$",paths: ["^ocs/(.*?)"]},{host: "^graph\\.microsoft\\.com$",paths: ["^v1\\.0/(.*?)"]},{host: "^management\\.azure\\.com$",paths: ["^providers/Microsoft.BusinessAppDiscovery/(.*?)"]},{host: "^outlook\\.office\\.com$",paths: ["^/calendar/opxdeeplink/myday$"]}],
+                    allowedResources: [{resource: "api.office.net",hosts: ["ocws.officeapps.live.com"]},{resource: "graph.microsoft.com",hosts: ["graph.microsoft.com"]},{resource: "webshell.suite.office.com",hosts: ["webshell.suite.office.com"]},{resource: "management.azure.com",hosts: ["management.azure.com"]},{resource: "outlook.office.com",hosts: ["outlook.office.com"]}],
+                    shouldAttachOauthTokens: true,
+                    trustedOriginAuthoritiesSetFromServer: true
+                };
+
+                O365SuiteServiceProxy.RequestExecutorMessageProcessor.init(requestExecutorSettings);
+
+                var tokenFactorySettings = {
+                    clientId: "89bee1f7-5e6e-4d8a-9f3d-ecd601259da7",
+                    instance: "https\u003A//login.microsoftonline.com/",
+                    tenant: 'common',
+                    cacheLocation: "sessionStorage",
+                    clientShellServiceOrigin: "https\u003A//webshell.suite.office.com",
+                    parentPageOrigin: "https\u003A//inc-powerpoint.officeapps.live.com",
+                    shsid: "485f2277-f733-45b5-8ac0-a3ca49921719",
+                    upn: "tanya.19b101036\u0040abes.ac.in"
+                };
+
+                O365TokenFactoryIframe.TokenFactoryInsideIframe.init(tokenFactorySettings);
+    </script>
+
+</body></html>
